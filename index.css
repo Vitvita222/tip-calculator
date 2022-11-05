@@ -56,10 +56,17 @@ body {
     transform: scale(1.1);
 }
 
+@media screen and (max-width: 1286px) {
+    .container {
+        left: 550px;
+        top: 150px;
+    }
+}
 
 @media screen and (max-width: 980px) {
     .container {
         left: 400px;
+        top: 150px;
     }
 }
 
